@@ -11,7 +11,6 @@ public class RotateAround : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("updating earth position");
         transform.RotateAround(Target.position, Vector3.up, Speed * Time.deltaTime);
     }
 }
